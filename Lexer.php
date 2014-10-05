@@ -5,7 +5,7 @@ class Lexer
   public function tokenize($source)
   {
     $patterns = [
-      'type'       => '(integer|string|boolean)',
+      'type'       => '(integer)',
       'assign'     => '(=)',
       'number'     => '([0-9.]+)',
       'whitespace' => '(\s+)',
